@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+/**/
+.swiper-container {
+    height: 100%;
+    width: 100%;
+    background: #eee;
+}
+
+.swiper-pagination {
+    position: relative;
+    top: -100px;
+}
+
+.swiper-slide {
+    position: relative;
+    letter-spacing: 1px;
+    height: 100%;
+    width: 100%;
+}
+
+.one-box-one {
+    height: 40%;
+    width: 90%;
+    background: #fff;
+    margin: 40px auto;
+    border-top: 5px;
+    border-top: 5px solid #777;
+    position: relative;
+}
+
+.one-box-two {
+    height: 40%;
+    width: 90%;
+    background: #fff;
+    margin: 20px auto;
+    border-top: 5px;
+    border-top: 5px solid #777;
+    position: relative;
+}
+
+.end {
+    height: 100%;
+    width: 100%;
+    background: #006a60;
+    color: #fff;
+    text-align: center;
+}
+
+.thanks {
+    font-size: 27px;
+    padding-top: 60%;
+    letter-spacing: 2px;
+}
+
+.swiper-slide-active .thanks {
+    animation: good 2s;
+}
+
+@keyframes good {
+    from {
+        transform: translate(0, -300px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+.me {
+    font-size: 12px;
+    color: #eee;
+    letter-spacing: 1px;
+}
+
+.swiper-slide-active .me {
+    animation: mego 2s;
+}
+
+@keyframes mego {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*向下按钮*/
+
+#nextpage {
+    position: fixed;
+    top: 90%;
+    left: 45%;
+    z-index: 3000;
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+
+.arr1 {
+    bottom: 40px;
+}
+
+.arr2 {
+    bottom: 50px;
+}
+
+.arrow {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -11px;
+    border: 3px solid transparent;
+    border-bottom: 3px solid #f1143a;
+    border-right: 3px solid #f1143a;
+    z-index: 99;
+    opacity: .8;
+    -webkit-transform: rotate(45deg);
+    -webkit-animation: arrow 1.5s infinite ease-in-out;
+}
+
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(0, 0px) rotate(45deg);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translate(0, 5px) rotate(45deg);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(0, 10px) rotate(45deg);
+    }
+}
+
+
+/*正文内容*/
+
+
+/*第一页*/
+
+.box-one {
+    height: 100%;
+    width: 100%;
+    background: url("http://ooi407n8x.bkt.clouddn.com/b1.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.one-on {
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 6vh;
+}
+
+.one-1 {
+    height: 125px;
+    width: 250px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/520.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10vh;
+    left: -20px;
+    z-index: 200;
+}
+
+.one-2 {
+    height: 35px;
+    width: 320px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/yao.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 17vh;
+    left: -60px;
+    z-index: 300;
+}
+
+.one-3 {
+    height: 300px;
+    width: 150px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/heart.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 45vh;
+    left: 30vw;
+}
+
+.one-9 {
+    height: 120px;
+    width: 60px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/re1.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+.one-10 {
+    height: 100px;
+    width: 80px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/re3.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: -25px;
+    left: 120px;
+}
+
+.one-11 {
+    height: 60px;
+    width: 40px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/re4.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: -32px;
+    left: 65px;
+}
+
+.one-4 {
+    height: 60vh;
+    width: 100vw;
+    background: url("http://ooi407n8x.bkt.clouddn.com/5000.png");
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.one-6 {
+    height: 120px;
+    width: 80px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/v.png");
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 40vh;
+    right: 0;
+}
+
+.one-7 {
+    height: 120px;
+    width: 80px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/e.png");
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 40vh;
+    left: 0;
+}
+
+.one-8 {
+    height: 120px;
+    width: 100px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/re2.png");
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 50vh;
+    left: 80px;
+}
+
+
+/*第二页*/
+
+.box-two {
+    height: 100%;
+    width: 100%;
+    background: url("http://ooi407n8x.bkt.clouddn.com/b2.png");
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.two-on {
+    height: 200px;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.two-2 {
+    height: 49px;
+    width: 238px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/love-2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 90px;
+    left: -56px;
+}
+
+.two-1 {
+    height: 223px;
+    width: 238px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/heart2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 219px;
+    left: -63px;
+}
+
+.two-3 {
+    height: 21vh;
+    width: 100vw;
+    background: url('http://ooi407n8x.bkt.clouddn.com/bike-2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.two-4 {
+    height: 100vh;
+    width: 100vw;
+    background: url('http://ooi407n8x.bkt.clouddn.com/girls-2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/*第三页*/
+
+.box-three {
+    height: 100%;
+    width: 100%;
+    background: url("http://ooi407n8x.bkt.clouddn.com/b3.png");
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.three-on {
+    height: 200px;
+    width: 100px;
+    margin: 25vh auto;
+    position: relative;
+}
+
+.three-1 {
+    height: 40px;
+    width: 34px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/re1-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+.three-2 {
+    height: 70px;
+    width: 52px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/re2-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: -33px;
+    left: 152px;
+}
+
+.three-3 {
+    height: 106px;
+    width: 80px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/re3-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: -42px;
+    left: -132px;
+}
+
+.three-4 {
+    height: 25px;
+    width: 25px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/heart4-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 82px;
+    left: 26px;
+}
+
+.three-5 {
+    height: 20px;
+    width: 20px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/heart5-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 150px;
+    left: 127px;
+}
+
+.three-6 {
+    height: 30px;
+    width: 45px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/heart6-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 123px;
+    left: -120px;
+}
+
+.three-7 {
+    height: 43vh;
+    width: 100vw;
+    background: url('http://ooi407n8x.bkt.clouddn.com/heart8-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 300;
+}
+
+.three-8 {
+    height: 100vh;
+    width: 100vw;
+    background: url('http://ooi407n8x.bkt.clouddn.com/heart9-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.three-9 {
+    height: 100vh;
+    width: 100vw;
+    background: url('http://ooi407n8x.bkt.clouddn.com/houes-3.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.three-10 {
+    height: 150px;
+    width: 100px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/flower.png');
+    background-size: 324px 283px;
+    position: absolute;
+    bottom: 8px;
+    left: -70px;
+    z-index: 1000;
+}
+
+.three-11 {
+    height: 50px;
+    width: 42px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/flower.png');
+    background-size: 150px 150px;
+    background-position: 151px 122px;
+    position: absolute;
+    bottom: -122px;
+    left: -106px;
+    z-index: 1000;
+}
+
+.three-12 {
+    height: 54px;
+    width: 42px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/flower.png');
+    background-size: 150px 150px;
+    background-position: 97px 120px;
+    position: absolute;
+    bottom: -129px;
+    left: -60px;
+    z-index: 1000;
+}
+
+.three-13 {
+    height: 50px;
+    width: 42px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/flower.png');
+    background-size: 150px 150px;
+    background-position: 45px 122px;
+    position: absolute;
+    bottom: -126px;
+    left: -17px;
+    z-index: 1000;
+}
+
+.three-14 {
+    height: 55px;
+    width: 42px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/flower.png');
+    background-size: 150px 150px;
+    background-position: 144px 68px;
+    position: absolute;
+    bottom: -180px;
+    left: -106px;
+    z-index: 1000;
+}
+
+.three-15 {
+    height: 55px;
+    width: 42px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/flower.png');
+    background-size: 150px 150px;
+    background-position: 98px 66px;
+    position: absolute;
+    bottom: -179px;
+    left: -20px;
+    z-index: 1000;
+}
+
+.three-16 {
+    height: 55px;
+    width: 44px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/flower.png');
+    background-size: 150px 150px;
+    background-position: 50px 68px;
+    position: absolute;
+    bottom: -185px;
+    left: -64px;
+    z-index: 1000;
+}
+
+.yao-hua {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50px;
+    left: 0;
+    color: #ff748f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.yao-hua2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 59vh;
+    left: 0;
+    color: #ff748f;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.yao-hua3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 64vh;
+    left: 0;
+    color: #ff748f;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*.three-17{
+    height: 166px;
+    width: 116px;
+    background: url(an.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 216px;
+    left: 58px;
+    z-index: 800;
+  }*/
+
+.active1 {
+    background-position: 1px 1px;
+}
+
+.active2 {
+    background-position: 213px -9px;
+}
+
+.active3 {
+    background-position: 98px 0px;
+}
+
+.active4 {
+    background-position: -10px 137px;
+}
+
+.active5 {
+    background-position: 112px 137px;
+}
+
+.active6 {
+    background-position: 215px 123px;
+}
+
+
+/*第四页*/
+
+.box-four {
+    height: 100%;
+    width: 100%;
+    background: url("http://ooi407n8x.bkt.clouddn.com/b4.png");
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.four-on {
+    height: 96vh;
+    width: 94vw;
+    margin: 2vh auto;
+    border: 2px solid red;
+    position: relative;
+}
+
+.four-two {
+    height: 200px;
+    width: 200px;
+    margin: 10vh auto;
+    position: relative;
+}
+
+.four-1 {
+    height: 250px;
+    width: 250px;
+    background: url("http://ooi407n8x.bkt.clouddn.com/endlove.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: -22px;
+    top: 0;
+}
+
+.four-2 {
+    height: 19px;
+    width: 38px;
+    background: url('http://ooi407n8x.bkt.clouddn.com/love-l.png');
+    background-size: 100% 100%;
+    position: absolute;
+    left: 88px;
+    top: 137px;
+}

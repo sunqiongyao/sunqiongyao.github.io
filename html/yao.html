@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="王安安和孙瑶瑶美好的520">
+    <title>孙瑶瑶的安安哥哥</title>
+    <link rel="stylesheet" href="../other/swiper.css">
+    <link rel="stylesheet" href="../other/animate.css">
+    <link rel="stylesheet" href="../css/delay.css">
+    <link rel="stylesheet" href="../css/yao.css">
+    <style media="screen">
+        .loading {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 100000;
+            background: white;
+            text-align: center;
+            line-height: 200px;
+            font-weight: bold;
+            color:pink;
+            font-size: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        !(function(doc, win) {
+            var docEle = doc.documentElement,
+                evt = "onorientationchange" in window ? "orientationchange" : "resize",
+                fn = function() {
+                    var width = docEle.clientWidth;
+                    width && (docEle.style.fontSize = 16 * (width / 320) + "px");
+                };
+            win.addEventListener(evt, fn, false);
+            doc.addEventListener("DOMContentLoaded", fn, false);
+        }(document, window));
+    </script>
+
+</head>
+
+<body>
+  <audio src="http://ooi407n8x.bkt.clouddn.com/music3.mp3" autoplay></audio>
+    <div class="loading" id="loading">
+        王安安真的在疯狂加载中。。。
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-index">
+                <div class="box-one">
+                    <div class="one-on">
+                        <div class="one-1 animated slideInDown delay_0"></div>
+                        <div class="one-2 animated bounceIn delay_1300"></div>
+                        <div class="one-5 animated bounceInDown delay_200"></div>
+                        <div class="one-9 animated bounceInDown delay_300"></div>
+                        <div class="one-10 animated bounceInDown delay_400"></div>
+                        <div class="one-11 animated bounceInDown delay_500"></div>
+                    </div>
+                    <div class="one-3 animated bounceInDown delay_600"></div>
+                    <div class="one-4 animated slideInUp delay_0"></div>
+                    <div class="one-6 animated bounceInDown delay_800"></div>
+                    <div class="one-7 animated bounceInDown delay_900"></div>
+                    <div class="one-8 animated bounceInDown delay_1000"></div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-second">
+                <div class="box-three">
+                    <div class="three-on">
+                        <div class="three-1 animated bounceInDown delay_0"></div>
+                        <div class="three-2 animated bounceInDown delay_100"></div>
+                        <div class="three-3 animated bounceInDown delay_200"></div>
+                        <div class="three-4 animated bounceInDown delay_300"></div>
+                        <div class="three-5 animated bounceInDown delay_400"></div>
+                        <div class="three-6 animated bounceInDown delay_500"></div>
+                        <div class="three-10 animated bounceInDown delay_600"></div>
+                        <div class="three-11 animated bounceInDown delay_700"></div>
+                        <div class="three-12 animated bounceInDown delay_800"></div>
+                        <div class="three-13 animated bounceInDown delay_900"></div>
+                        <div class="three-14 animated bounceInDown delay_1000"></div>
+                        <div class="three-15 animated bounceInDown delay_1100"></div>
+                        <div class="three-16 animated bounceInDown delay_1200"></div>
+                    </div>
+                    <p class="yao-hua animated bounceInDown delay_1300">孙瑶瑶 请选择你最喜欢的花花</p>
+                    <div class="three-17 animated bounceInDown delay_1400"></div>
+                    <div class="three-7 animated bounceInDown delay_1500"></div>
+                    <div class="three-8 animated bounceInDown delay_1600"></div>
+                    <div class="three-9 animated bounceInDown delay_1700"></div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-third">
+                <div class="box-two">
+                    <div class="two-on">
+                        <div class="two-1 animated bounceInDown  delay_0"></div>
+                        <div class="two-2 animated bounceInDown  delay_100"></div>
+                    </div>
+                    <div class="two-3 animated bounceInDown  delay_200"></div>
+                    <div class="two-4 animated bounceInDown  delay_300"></div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-forth">
+                <div class="box-four">
+                    <div class="four-on">
+                        <div class="four-two">
+                            <div class="four-1 animated bounceInDown  delay_0"></div>
+                            <div class="four-2 animated bounceInDown  delay_100"></div>
+                        </div>
+                        <p class="yao-hua2 animated bounceInDown  delay_200">美 女：孙瑶瑶</p>
+                        <p class="yao-hua3 animated bounceInDown  delay_300">制作人：王安安</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" id="nextpage">
+            <div class="arrow arr1"></div>
+            <div class="arrow arr2"></div>
+        </a>
+    </div>
+
+    <!--  -->
+    <script type="text/javascript" src="../other/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="../other/swiper.js"></script>
+    <script type="text/javascript" src="../js/yao.js"></script>
+    <script type="text/javascript">
+        window.onload = function (){
+            var loading = document.getElementById('loading')
+            loading.classList.add('hidden')
+        }
+    </script>
+
+</body>
+
+</html>
